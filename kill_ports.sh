@@ -17,5 +17,5 @@ fi
 
 for port in $ports_trated
 do
-    $sudo kill -9 `sudo lsof -t -i:$port`
+    $sudo kill -9 `$sudo lsof -t -i:$port`
 done
